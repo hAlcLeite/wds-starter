@@ -9,7 +9,7 @@
 //  return new Promise(() => "to be cool");
 // }
 
-// function feature2() {
-//   console.log("FEATURE 1 IS KINDA A LIAR");
-//   return new Promise((resolve, reject) => reject("to be cool"));
-// }
+function feature2() {
+console.log("FEATURE 1 IS KINDA A LIAR");
+return new Promise((resolve, reject) => reject("to be cool"));
+ }
